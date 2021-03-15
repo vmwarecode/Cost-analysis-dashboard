@@ -1,0 +1,1369 @@
+{
+   "dashboards": [{
+      "adapterName": "VMware vSphere",
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1615763370054,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "docCenterKey": "vcom_535",
+      "gridsterMaxColumns": 12,
+      "hidden": true,
+      "homeTab": false,
+      "id": "0b035930-9c2c-4a60-82e9-bd68e54739bb",
+      "importAttempts": 0,
+      "importComplete": true,
+      "lastUpdateTime": 1615763749136,
+      "lastUpdateUserId": "3c29540e-3be7-47fa-8c78-399249662ab5",
+      "locked": false,
+      "name": "NG - Datacenter Cost Analysis",
+      "rank": 0,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "3c29540e-3be7-47fa-8c78-399249662ab5",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9115ccf0-90e6-413a-bdac-c4776f2da48e",
+            "widgetIdReceiver": "1efca2ef-cf6d-47b8-bf25-0a3ba759c223"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9115ccf0-90e6-413a-bdac-c4776f2da48e",
+            "widgetIdReceiver": "c9457a05-f4ab-44d4-bfd0-b2d9ab893216"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9115ccf0-90e6-413a-bdac-c4776f2da48e",
+            "widgetIdReceiver": "76697920-45b0-42f7-a963-fc9eb6d82a80"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9115ccf0-90e6-413a-bdac-c4776f2da48e",
+            "widgetIdReceiver": "4630fa44-b808-4e75-931a-2b9fc4fba309"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9115ccf0-90e6-413a-bdac-c4776f2da48e",
+            "widgetIdReceiver": "235b5389-c129-4115-b584-94f9be6f1c78"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9115ccf0-90e6-413a-bdac-c4776f2da48e",
+            "widgetIdReceiver": "a6602534-c929-499a-9d07-bddee35a17c4"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9115ccf0-90e6-413a-bdac-c4776f2da48e",
+            "widgetIdReceiver": "eb514f0d-4a39-4a17-8aa8-8c89c0a5f524"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resource": null,
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "title": "Cost Drivers: Compute",
+               "traversalSpecId": "",
+               "viewDefinitionId": "37dfe11e-3d7d-45d0-a981-02d90db0d6ff"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 1,
+               "y": 10
+            },
+            "height": 324,
+            "id": "1efca2ef-cf6d-47b8-bf25-0a3ba759c223",
+            "title": "Cost Drivers: Compute",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resource": null,
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "title": "Cost Drivers: Non Compute",
+               "traversalSpecId": "",
+               "viewDefinitionId": "8fd58eaa-4acb-40f6-ace2-13b567c72f5e"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 4,
+               "y": 10
+            },
+            "height": 324,
+            "id": "c9457a05-f4ab-44d4-bfd0-b2d9ab893216",
+            "title": "Cost Drivers: Non Compute",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-12",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceName": "vSphere World",
+                  "traversalSpecId": "vSphere Hosts and Clusters-VMWARE-vSphere World"
+               },
+               "selectFirstRow": {"selectFirstRow": true},
+               "selfProvider": {"selfProvider": true},
+               "title": "Datacenters",
+               "traversalSpecId": null,
+               "viewDefinitionId": "e94d5f5f-a701-4b98-8bf5-540e22ca305e"
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 7,
+               "x": 1,
+               "y": 1
+            },
+            "height": 495,
+            "id": "9115ccf0-90e6-413a-bdac-c4776f2da48e",
+            "states": [{
+               "key": "perm_toolbarVisible_widget_0b035930-9c2c-4a60-82e9-bd68e54739bb_9115ccf0-90e6-413a-bdac-c4776f2da48e",
+               "value": "b%3A1"
+            }],
+            "title": "Datacenters",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resource": null,
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "title": "Server Purchase Cost and Depreciation (Of Selected Datacenter)",
+               "traversalSpecId": "",
+               "viewDefinitionId": "ed72021b-af1e-4e42-8e81-a9c8f5738c91"
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 7,
+               "y": 10
+            },
+            "height": 324,
+            "id": "76697920-45b0-42f7-a963-fc9eb6d82a80",
+            "title": "Server Purchase Cost and Depreciation (Of Selected Datacenter)",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel10802-1",
+                        "isStringMetric": false,
+                        "metricKey": "cost|aggrTotalCost",
+                        "metricName": "Cost|Monthly Aggregated Total Cost",
+                        "metricUnitId": "currencymonth",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "US$/Month",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel14699-1",
+                        "isStringMetric": false,
+                        "metricKey": "cost|clusterCost",
+                        "metricName": "Cost|Monthly Cluster Aggregated Cost",
+                        "metricUnitId": "currencymonth",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "US$/Month",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel10802-3",
+                        "isStringMetric": false,
+                        "metricKey": "cost|dataStoreCost",
+                        "metricName": "Cost|Monthly Datastore Total Cost",
+                        "metricUnitId": "currencymonth",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "US$/Month",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 2,
+                        "handleOldColoring": false,
+                        "id": "extModel10802-4",
+                        "isStringMetric": false,
+                        "metricKey": "cost|vmDirectCost",
+                        "metricName": "Cost|Monthly VM Aggregated Direct Cost",
+                        "metricUnitId": "currencymonth",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Datacenter",
+                        "unit": "US$/Month",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Total Cost of Ownership (Cluster + Storage + VM Direct Cost)"
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 5,
+               "x": 8,
+               "y": 1
+            },
+            "height": 495,
+            "id": "4630fa44-b808-4e75-931a-2b9fc4fba309",
+            "states": [
+               {
+                  "key": "permBtn_splitGraphs_permMetricChart_widget_0b035930-9c2c-4a60-82e9-bd68e54739bb_4630fa44-b808-4e75-931a-2b9fc4fba309",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_0b035930-9c2c-4a60-82e9-bd68e54739bb_4630fa44-b808-4e75-931a-2b9fc4fba309",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_0b035930-9c2c-4a60-82e9-bd68e54739bb_4630fa44-b808-4e75-931a-2b9fc4fba309",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_stackedGraph_permMetricChart_widget_0b035930-9c2c-4a60-82e9-bd68e54739bb_4630fa44-b808-4e75-931a-2b9fc4fba309",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_0b035930-9c2c-4a60-82e9-bd68e54739bb_4630fa44-b808-4e75-931a-2b9fc4fba309",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_0b035930-9c2c-4a60-82e9-bd68e54739bb_4630fa44-b808-4e75-931a-2b9fc4fba309",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_0b035930-9c2c-4a60-82e9-bd68e54739bb_4630fa44-b808-4e75-931a-2b9fc4fba309",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last7Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "Total Cost of Ownership (Cluster + Storage + VM Direct Cost)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 1,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [{
+                     "filterTypes": [{
+                        "condition": "GREATER_THAN",
+                        "filterType": "metrics",
+                        "metricKey": "cost|totalCost",
+                        "metricValue": {
+                           "isStringMetric": false,
+                           "value": 0
+                        }
+                     }],
+                     "resourceKind": "002006VMWAREClusterComputeResource"
+                  }],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "handleOldColoring": false,
+                     "id": "extModel56110-1",
+                     "isStringMetric": false,
+                     "label": "Cluster CPU Base Rate",
+                     "link": "",
+                     "metricKey": "cost|cpuBaseRate",
+                     "metricName": "Cost|Cluster CPU Base Rate",
+                     "metricUnitId": "currencyghzmonth",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:1_::_",
+                     "resourceKindName": "Cluster Compute Resource",
+                     "unit": "US$/GHz/Month",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": -1},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": false},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": false},
+               "title": "Cluster CPU Base Rate (US$/GHz/month)",
+               "valueSize": 20,
+               "visualTheme": 8
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 16
+            },
+            "height": 210,
+            "id": "235b5389-c129-4115-b584-94f9be6f1c78",
+            "title": "Cluster CPU Base Rate (US$/GHz/month)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 1,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [{
+                     "filterTypes": [{
+                        "condition": "GREATER_THAN",
+                        "filterType": "metrics",
+                        "metricKey": "cost|totalCost",
+                        "metricValue": {
+                           "isStringMetric": false,
+                           "value": 0
+                        }
+                     }],
+                     "resourceKind": "002006VMWAREClusterComputeResource"
+                  }],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "handleOldColoring": false,
+                     "id": "extModel68905-1",
+                     "isStringMetric": false,
+                     "label": "Cluster Memory Base Rate",
+                     "link": "",
+                     "metricKey": "cost|memoryBaseRate",
+                     "metricName": "Cost|Cluster Memory Base Rate",
+                     "metricUnitId": "currencygbmonth",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:1_::_",
+                     "resourceKindName": "Cluster Compute Resource",
+                     "unit": "US$/GB/Month",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": -1},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": false},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": false},
+               "title": "Cluster Memory Base Rate (US$/GB/month",
+               "valueSize": 24,
+               "visualTheme": 8
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 5,
+               "y": 16
+            },
+            "height": 210,
+            "id": "a6602534-c929-499a-9d07-bddee35a17c4",
+            "title": "Cluster Memory Base Rate (US$/GB/month",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 1,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [{
+                     "filterTypes": [{
+                        "condition": "GREATER_THAN",
+                        "filterType": "metrics",
+                        "metricKey": "cost|totalCost",
+                        "metricValue": {
+                           "isStringMetric": false,
+                           "value": 0
+                        }
+                     }],
+                     "resourceKind": "002006VMWAREDatastore"
+                  }],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "handleOldColoring": false,
+                     "id": "extModel69656-1",
+                     "isStringMetric": false,
+                     "label": "Storage Base Rate",
+                     "link": "",
+                     "metricKey": "cost|storageRate",
+                     "metricName": "Cost|Disk Space Base Rate",
+                     "metricUnitId": "currencygbmonth",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:2_::_",
+                     "resourceKindName": "Datastore",
+                     "unit": "US$/GB/Month",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": -1},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": false},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": false},
+               "title": "Datastore Disk Space Base Rate (US$/GB/month)",
+               "valueSize": 24,
+               "visualTheme": 8
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 9,
+               "y": 16
+            },
+            "height": 210,
+            "id": "eb514f0d-4a39-4a17-8aa8-8c89c0a5f524",
+            "title": "Datastore Disk Space Base Rate (US$/GB/month)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {"thresholds": {
+                        "colors": [
+                           "#99CCFF",
+                           "#C0C0C0",
+                           "#808080"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }},
+                     "colorBy": {
+                        "metricKey": "cost|cpuBaseRate",
+                        "value": "Cost|Cluster CPU Base Rate (\u20b9/GHz/Month)"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [{
+                           "filterTypes": [{
+                              "condition": "GREATER_THAN",
+                              "filterType": "metrics",
+                              "isStringMetric": false,
+                              "metricKey": "cost|totalCost",
+                              "metricName": "Cost|Monthly Cluster Total Cost",
+                              "metricUnit": "\u20b9/Month",
+                              "metricValue": {
+                                 "isStringMetric": false,
+                                 "value": 0
+                              }
+                           }],
+                           "resourceKind": "002006VMWAREClusterComputeResource",
+                           "resourceKindId": "002006VMWAREClusterComputeResource"
+                        }],
+                        "includedResources": null
+                     },
+                     "filterMode": "tagPicker",
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "id": "004null002006VMWAREVMwareAdapter Instance",
+                        "originalText": "vCenter Server",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "vCenter Server",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:3_::_"
+                     },
+                     "mode": {"mode": false},
+                     "name": "CPU Base Rate vs. Total CPU Cost (Demand)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "sizeBy": {
+                        "metricKey": "cost|totalCpuCost",
+                        "value": "Cost|Monthly Cluster Total CPU Cost (\u20b9/Month)"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": {
+                        "id": "004null002006VMWAREDatacenter",
+                        "originalText": "Datacenter",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Datacenter",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     }
+                  },
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {"thresholds": {
+                        "colors": [
+                           "#99CCFF",
+                           "#99CCFF",
+                           "#C0C0C0",
+                           "#808080"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }},
+                     "colorBy": {
+                        "metricKey": "cost|cpuBaseRate",
+                        "value": "Cost|Cluster CPU Base Rate (\u20b9/GHz/Month)"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [{
+                           "filterTypes": [{
+                              "condition": "GREATER_THAN",
+                              "filterType": "metrics",
+                              "isStringMetric": false,
+                              "metricKey": "cost|totalCost",
+                              "metricName": "Cost|Monthly Cluster Total Cost",
+                              "metricUnit": "\u20b9/Month",
+                              "metricValue": {
+                                 "isStringMetric": false,
+                                 "value": 0
+                              }
+                           }],
+                           "resourceKind": "002006VMWAREClusterComputeResource",
+                           "resourceKindId": "002006VMWAREClusterComputeResource"
+                        }],
+                        "includedResources": null
+                     },
+                     "filterMode": "customFilter",
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "id": "004null002006VMWAREVMwareAdapter Instance",
+                        "originalText": "vCenter Server",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "vCenter Server",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:3_::_"
+                     },
+                     "id": "extModel6206-3",
+                     "mode": {"mode": false},
+                     "name": "CPU Base Rate vs. Expected Utilization (Demand)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "sizeBy": {
+                        "metricKey": "cost|cpuExpectedUtilizationPct",
+                        "value": "Cost|Cluster CPU Expected Utilization (%)"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": {
+                        "id": "004null002006VMWAREDatacenter",
+                        "originalText": "Datacenter",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Datacenter",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     }
+                  },
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {"thresholds": {
+                        "colors": [
+                           "#99CCFF",
+                           "#C0C0C0",
+                           "#808080"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }},
+                     "colorBy": {
+                        "metricKey": "cost|allocation|allocationBasedCpuBaseRate",
+                        "value": "Cost|Allocation|Cluster CPU Base Rate (\u20b9/vCPU/Month)"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [{
+                           "filterTypes": [{
+                              "condition": "GREATER_THAN",
+                              "filterType": "metrics",
+                              "isStringMetric": false,
+                              "metricKey": "cost|allocation|allocationBasedCpuBaseRate",
+                              "metricName": "Cost|Allocation|Cluster CPU Base Rate",
+                              "metricUnit": "\u20b9/vCPU/Month",
+                              "metricValue": {
+                                 "isStringMetric": false,
+                                 "value": 0
+                              }
+                           }],
+                           "resourceKind": "002006VMWAREClusterComputeResource",
+                           "resourceKindId": "002006VMWAREClusterComputeResource"
+                        }],
+                        "includedResources": null
+                     },
+                     "filterMode": "customFilter",
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "id": "004null002006VMWAREVMwareAdapter Instance",
+                        "originalText": "vCenter Server",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "vCenter Server",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:3_::_"
+                     },
+                     "id": "extModel6206-5",
+                     "mode": {"mode": false},
+                     "name": "CPU Base Rate vs. Total CPU Cost (Allocation)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "sizeBy": {
+                        "metricKey": "cost|totalCpuCost",
+                        "value": "Cost|Monthly Cluster Total CPU Cost (\u20b9/Month)"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": {
+                        "id": "004null002006VMWAREDatacenter",
+                        "originalText": "Datacenter",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Datacenter",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     }
+                  },
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {"thresholds": {
+                        "colors": [
+                           "#99CCFF",
+                           "#C0C0C0",
+                           "#808080"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }},
+                     "colorBy": {
+                        "metricKey": "cost|allocation|allocationBasedCpuBaseRate",
+                        "value": "Cost|Allocation|Cluster CPU Base Rate (\u20b9/vCPU/Month)"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [{
+                           "filterTypes": [{
+                              "condition": "GREATER_THAN",
+                              "filterType": "metrics",
+                              "isStringMetric": false,
+                              "metricKey": "cost|allocation|allocationBasedCpuBaseRate",
+                              "metricName": "Cost|Allocation|Cluster CPU Base Rate",
+                              "metricUnit": "\u20b9/vCPU/Month",
+                              "metricValue": {
+                                 "isStringMetric": false,
+                                 "value": 0
+                              }
+                           }],
+                           "resourceKind": "002006VMWAREClusterComputeResource",
+                           "resourceKindId": "002006VMWAREClusterComputeResource"
+                        }],
+                        "includedResources": null
+                     },
+                     "filterMode": "tagPicker",
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "id": "004null002006VMWAREVMwareAdapter Instance",
+                        "originalText": "vCenter Server",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "vCenter Server",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:3_::_"
+                     },
+                     "id": "extModel1215-1",
+                     "mode": {"mode": false},
+                     "name": "CPU Base Rate vs. Current Overcommit Ratio (Allocation)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "sizeBy": {
+                        "metricKey": "cpu|vcpus_to_cores_allocation_ratio",
+                        "value": "CPU|Current Overcommit Ratio"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": {
+                        "id": "004null002006VMWAREDatacenter",
+                        "originalText": "Datacenter",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Datacenter",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     }
+                  }
+               ],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Clusters with Cheapest CPU Cost",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 1,
+               "y": 21
+            },
+            "height": 324,
+            "id": "d620e192-aba7-451a-8090-d02e14e56915",
+            "states": [{
+               "key": "perm_HeatMap_widget_0b035930-9c2c-4a60-82e9-bd68e54739bb_d620e192-aba7-451a-8090-d02e14e56915",
+               "value": "o%3A"
+            }],
+            "title": "Clusters with Cheapest CPU Cost",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {"thresholds": {
+                        "colors": [
+                           "#99CCFF",
+                           "#C0C0C0",
+                           "#808080"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }},
+                     "colorBy": {
+                        "metricKey": "cost|memoryBaseRate",
+                        "value": "Cost|Cluster Memory Base Rate (\u20b9/GB/Month)"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [{
+                           "filterTypes": [{
+                              "condition": "GREATER_THAN",
+                              "filterType": "metrics",
+                              "isStringMetric": false,
+                              "metricKey": "cost|totalCost",
+                              "metricName": "Cost|Monthly Cluster Total Cost",
+                              "metricUnit": "\u20b9/Month",
+                              "metricValue": {
+                                 "isStringMetric": false,
+                                 "value": 0
+                              }
+                           }],
+                           "resourceKind": "002006VMWAREClusterComputeResource",
+                           "resourceKindId": "002006VMWAREClusterComputeResource"
+                        }],
+                        "includedResources": null
+                     },
+                     "filterMode": "tagPicker",
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "id": "004null002006VMWAREVMwareAdapter Instance",
+                        "originalText": "vCenter Server",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "vCenter Server",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:3_::_"
+                     },
+                     "mode": {"mode": false},
+                     "name": "Memory Base Rate vs. Total Memory Cost (Demand)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "sizeBy": {
+                        "metricKey": "cost|totalMemoryCost",
+                        "value": "Cost|Monthly Cluster Total Memory Cost (\u20b9/Month)"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": {
+                        "id": "004null002006VMWAREDatacenter",
+                        "originalText": "Datacenter",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Datacenter",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     }
+                  },
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {"thresholds": {
+                        "colors": [
+                           "#99CCFF",
+                           "#C0C0C0",
+                           "#808080"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }},
+                     "colorBy": {
+                        "metricKey": "cost|memoryBaseRate",
+                        "value": "Cost|Cluster Memory Base Rate (\u20b9/GB/Month)"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [{
+                           "filterTypes": [{
+                              "condition": "GREATER_THAN",
+                              "filterType": "metrics",
+                              "isStringMetric": false,
+                              "metricKey": "cost|totalCost",
+                              "metricName": "Cost|Monthly Cluster Total Cost",
+                              "metricUnit": "\u20b9/Month",
+                              "metricValue": {
+                                 "isStringMetric": false,
+                                 "value": 0
+                              }
+                           }],
+                           "resourceKind": "002006VMWAREClusterComputeResource",
+                           "resourceKindId": "002006VMWAREClusterComputeResource"
+                        }],
+                        "includedResources": null
+                     },
+                     "filterMode": "customFilter",
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "id": "004null002006VMWAREVMwareAdapter Instance",
+                        "originalText": "vCenter Server",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "vCenter Server",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:3_::_"
+                     },
+                     "id": "extModel11427-3",
+                     "mode": {"mode": false},
+                     "name": "Memory Base Rate vs. Expected Utilization (Demand)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "sizeBy": {
+                        "metricKey": "cost|memoryExpectedUtilizationPct",
+                        "value": "Cost|Cluster Memory Expected Utilization (%)"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": {
+                        "id": "004null002006VMWAREDatacenter",
+                        "originalText": "Datacenter",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Datacenter",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     }
+                  },
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {"thresholds": {
+                        "colors": [
+                           "#99CCFF",
+                           "#C0C0C0",
+                           "#808080"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }},
+                     "colorBy": {
+                        "metricKey": "cost|allocation|allocationBasedMemoryBaseRate",
+                        "value": "Cost|Allocation|Cluster Memory Base Rate (\u20b9/GB/Month)"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [{
+                           "filterTypes": [{
+                              "condition": "GREATER_THAN",
+                              "filterType": "metrics",
+                              "isStringMetric": false,
+                              "metricKey": "cost|allocation|allocationBasedMemoryBaseRate",
+                              "metricName": "Cost|Allocation|Cluster Memory Base Rate",
+                              "metricUnit": "\u20b9/GB/Month",
+                              "metricValue": {
+                                 "isStringMetric": false,
+                                 "value": 0
+                              }
+                           }],
+                           "resourceKind": "002006VMWAREClusterComputeResource",
+                           "resourceKindId": "002006VMWAREClusterComputeResource"
+                        }],
+                        "includedResources": null
+                     },
+                     "filterMode": "customFilter",
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "id": "004null002006VMWAREVMwareAdapter Instance",
+                        "originalText": "vCenter Server",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "vCenter Server",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:3_::_"
+                     },
+                     "id": "extModel8727-1",
+                     "mode": {"mode": false},
+                     "name": "Memory Base Rate vs. Total Memory Cost (Allocation)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "sizeBy": {
+                        "metricKey": "cost|totalMemoryCost",
+                        "value": "Cost|Monthly Cluster Total Memory Cost (\u20b9/Month)"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": {
+                        "id": "004null002006VMWAREDatacenter",
+                        "originalText": "Datacenter",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Datacenter",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     }
+                  },
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {"thresholds": {
+                        "colors": [
+                           "#99CCFF",
+                           "#C0C0C0",
+                           "#808080"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }},
+                     "colorBy": {
+                        "metricKey": "cost|allocation|allocationBasedMemoryBaseRate",
+                        "value": "Cost|Allocation|Cluster Memory Base Rate (\u20b9/GB/Month)"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [{
+                           "filterTypes": [{
+                              "condition": "GREATER_THAN",
+                              "filterType": "metrics",
+                              "isStringMetric": false,
+                              "metricKey": "cost|allocation|allocationBasedMemoryBaseRate",
+                              "metricName": "Cost|Allocation|Cluster Memory Base Rate",
+                              "metricUnit": "\u20b9/GB/Month",
+                              "metricValue": {
+                                 "isStringMetric": false,
+                                 "value": 0
+                              }
+                           }],
+                           "resourceKind": "002006VMWAREClusterComputeResource",
+                           "resourceKindId": "002006VMWAREClusterComputeResource"
+                        }],
+                        "includedResources": null
+                     },
+                     "filterMode": "tagPicker",
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "id": "004null002006VMWAREVMwareAdapter Instance",
+                        "originalText": "vCenter Server",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "vCenter Server",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:3_::_"
+                     },
+                     "id": "extModel1689-1",
+                     "mode": {"mode": false},
+                     "name": "Memory Base Rate vs. Current Overcommit Ratio (Allocation)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "sizeBy": {
+                        "metricKey": "mem|virtual_to_physical_memory_allocation_ratio",
+                        "value": "Memory|Current Overcommit Ratio"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": {
+                        "id": "004null002006VMWAREDatacenter",
+                        "originalText": "Datacenter",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Datacenter",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     }
+                  }
+               ],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Clusters with Cheapest Memory Cost",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 5,
+               "y": 21
+            },
+            "height": 324,
+            "id": "4c2528e6-1215-4af1-94b4-c864b9a16b6e",
+            "states": [{
+               "key": "perm_HeatMap_widget_0b035930-9c2c-4a60-82e9-bd68e54739bb_4c2528e6-1215-4af1-94b4-c864b9a16b6e",
+               "value": "o%3A"
+            }],
+            "title": "Clusters with Cheapest Memory Cost",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {"thresholds": {
+                        "colors": [
+                           "#99CCFF",
+                           "#99CCFF",
+                           "#C0C0C0",
+                           "#808080"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }},
+                     "colorBy": {
+                        "metricKey": "cost|storageRate",
+                        "value": "Cost|Disk Space Base Rate (\u20b9/GB/Month)"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [{
+                           "filterTypes": [{
+                              "condition": "GREATER_THAN",
+                              "filterType": "metrics",
+                              "isStringMetric": false,
+                              "metricKey": "cost|totalCost",
+                              "metricName": "Cost|Monthly Total Cost",
+                              "metricUnit": "\u20b9/Month",
+                              "metricValue": {
+                                 "isStringMetric": false,
+                                 "value": 0
+                              }
+                           }],
+                           "resourceKind": "002006VMWAREDatastore",
+                           "resourceKindId": "002006VMWAREDatastore"
+                        }],
+                        "includedResources": null
+                     },
+                     "filterMode": "tagPicker",
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "id": "004null002006VMWAREDatacenter",
+                        "originalText": "Datacenter",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Datacenter",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     },
+                     "mode": {"mode": false},
+                     "name": "Storage Base Rate vs. Total Datastore Cost (Demand)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:2_::_",
+                     "sizeBy": {
+                        "metricKey": "cost|totalCost",
+                        "value": "Cost|Monthly Total Cost (\u20b9/Month)"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": {
+                        "id": "004null002006VMWAREStoragePod",
+                        "originalText": "Datastore Cluster",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Datastore Cluster",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:4_::_"
+                     }
+                  },
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {"thresholds": {
+                        "colors": [
+                           "#99CCFF",
+                           "#C0C0C0",
+                           "#808080"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }},
+                     "colorBy": {
+                        "metricKey": "cost|allocation|storageRateByAllocation",
+                        "value": "Cost|Allocation|Disk Space Base Rate (\u20b9/GB/Month)"
+                     },
+                     "customFilter": {
+                        "excludedResources": null,
+                        "filter": [{
+                           "filterTypes": [{
+                              "condition": "GREATER_THAN",
+                              "filterType": "metrics",
+                              "isStringMetric": false,
+                              "metricKey": "cost|allocation|storageRateByAllocation",
+                              "metricName": "Cost|Allocation|Disk Space Base Rate",
+                              "metricUnit": "\u20b9/GB/Month",
+                              "metricValue": {
+                                 "isStringMetric": false,
+                                 "value": 0
+                              }
+                           }],
+                           "resourceKind": "002006VMWAREDatastore",
+                           "resourceKindId": "002006VMWAREDatastore"
+                        }],
+                        "includedResources": null
+                     },
+                     "filterMode": "tagPicker",
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "id": "004null002006VMWAREDatacenter",
+                        "originalText": "Datacenter",
+                        "parentId": "VMWARE",
+                        "parentText": "vCenter Adapter",
+                        "text": "Datacenter",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     },
+                     "id": "extModel2112-1",
+                     "mode": {"mode": false},
+                     "name": "Storage Base Rate vs. Total Datastore Cost (Allocation)",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:2_::_",
+                     "sizeBy": {
+                        "metricKey": "cost|totalCost",
+                        "value": "Cost|Monthly Total Cost (\u20b9/Month)"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": null
+                  }
+               ],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Datastores with Cheapest Storage Cost",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 9,
+               "y": 21
+            },
+            "height": 324,
+            "id": "3e26df1b-c8b5-48ce-bd8b-6310bdb2089f",
+            "states": [{
+               "key": "perm_HeatMap_widget_0b035930-9c2c-4a60-82e9-bd68e54739bb_3e26df1b-c8b5-48ce-bd8b-6310bdb2089f",
+               "value": "o%3A"
+            }],
+            "title": "Datastores with Cheapest Storage Cost",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "locationFile": "",
+               "locationUrl": "",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "title": "Base Rate Analysis (entire environment)",
+               "viewModeHTML": true
+            },
+            "gridsterCoords": {
+               "h": 1,
+               "w": 12,
+               "x": 1,
+               "y": 20
+            },
+            "height": 90,
+            "id": "f76619e4-a8a1-4523-9ae3-9cdea4c97a8b",
+            "title": "Base Rate Analysis (entire environment)",
+            "type": "TextDisplay"
+         }
+      ]
+   }],
+   "entries": {
+      "resource": [{
+         "adapterKindKey": "VMWARE",
+         "identifiers": [],
+         "internalId": "resource:id:0_::_",
+         "name": "vSphere World",
+         "resourceKindKey": "vSphere World"
+      }],
+      "resourceKind": [
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:0_::_",
+            "resourceKindKey": "Datacenter"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:3_::_",
+            "resourceKindKey": "VMwareAdapter Instance"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:1_::_",
+            "resourceKindKey": "ClusterComputeResource"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:4_::_",
+            "resourceKindKey": "StoragePod"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:2_::_",
+            "resourceKindKey": "Datastore"
+         }
+      ]
+   },
+   "uuid": "6a066349-3be9-4e19-a507-a0312a4646a4"
+}

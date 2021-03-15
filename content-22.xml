@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Content>
+    <Views>
+        <ViewDef id="e94d5f5f-a701-4b98-8bf5-540e22ca305e">
+            <Title>NG - DC cost List</Title>
+            <Description/>
+            <SubjectType adapterKind="VMWARE" filter="[[{&quot;condition&quot;:&quot;GREATER_THAN&quot;,&quot;metricKey&quot;:&quot;cost|aggrTotalCost&quot;,&quot;metricValue&quot;:{&quot;isStringMetric&quot;:false,&quot;value&quot;:0},&quot;filterType&quot;:&quot;metrics&quot;}]]" resourceKind="Datacenter" type="descendant"/>
+            <SubjectType adapterKind="VMWARE" filter="[[{&quot;condition&quot;:&quot;GREATER_THAN&quot;,&quot;metricKey&quot;:&quot;cost|aggrTotalCost&quot;,&quot;metricValue&quot;:{&quot;isStringMetric&quot;:false,&quot;value&quot;:0},&quot;filterType&quot;:&quot;metrics&quot;}]]" resourceKind="Datacenter" type="self"/>
+            <Usage>dashboard</Usage>
+            <Usage>report</Usage>
+            <Usage>details</Usage>
+            <Usage>content</Usage>
+            <Controls>
+                <Control id="time-interval-selector_id_57" type="time-interval-selector" visible="false">
+                    <Property name="advancedTimeMode" value="true"/>
+                    <Property name="unit" value="DAYS"/>
+                    <Property name="count" value="7"/>
+                    <Property name="startPeriod" value="PREVIOUS"/>
+                    <Property name="endPeriod" value="NOW"/>
+                </Control>
+                <Control id="attributes-selector_id_58" type="attributes-selector" visible="false">
+                    <Property name="attributeInfos">
+                        <List>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="cost|aggrTotalCost"/>
+    <Property name="id" value="extModel77138-1"/>
+    <Property name="preferredUnitId" value="currencymonth"/>
+    <Property name="isStringAttribute" value="false"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="Datacenter"/>
+    <Property name="rollUpType" value="NONE"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="CURRENT"/>
+        </List>
+    </Property>
+    <Property name="sortCriteria" value="false"/>
+    <Property name="isProperty" value="false"/>
+    <Property name="displayName" value="Total Cost of Ownership"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="cost|clusterCost"/>
+    <Property name="id" value="extModel77138-2"/>
+    <Property name="preferredUnitId" value="currencymonth"/>
+    <Property name="isStringAttribute" value="false"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="Datacenter"/>
+    <Property name="rollUpType" value="NONE"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="CURRENT"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="false"/>
+    <Property name="displayName" value="Cluster Aggregated Cost"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="cost|dataStoreCost"/>
+    <Property name="id" value="extModel77138-3"/>
+    <Property name="preferredUnitId" value="currencymonth"/>
+    <Property name="isStringAttribute" value="false"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="Datacenter"/>
+    <Property name="rollUpType" value="NONE"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="CURRENT"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="false"/>
+    <Property name="displayName" value="Storage Cost"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="cost|vmDirectCost"/>
+    <Property name="id" value="extModel77138-4"/>
+    <Property name="preferredUnitId" value="currencymonth"/>
+    <Property name="isStringAttribute" value="false"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="Datacenter"/>
+    <Property name="rollUpType" value="NONE"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="CURRENT"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="false"/>
+    <Property name="displayName" value="VM Direct Cost"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="summary|total_number_vms"/>
+    <Property name="id" value="extModel77138-5"/>
+    <Property name="isStringAttribute" value="false"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="Datacenter"/>
+    <Property name="rollUpType" value="NONE"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="CURRENT"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="false"/>
+    <Property name="displayName" value="VMs"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="summary|total_number_hosts"/>
+    <Property name="id" value="extModel77138-6"/>
+    <Property name="isStringAttribute" value="false"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="Datacenter"/>
+    <Property name="rollUpType" value="NONE"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="CURRENT"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="false"/>
+    <Property name="displayName" value="Hosts"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="summary|total_number_clusters"/>
+    <Property name="id" value="extModel77138-7"/>
+    <Property name="isStringAttribute" value="false"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="Datacenter"/>
+    <Property name="rollUpType" value="NONE"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="CURRENT"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="false"/>
+    <Property name="displayName" value="Clusters"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="summary|total_number_datastores"/>
+    <Property name="id" value="extModel77138-8"/>
+    <Property name="isStringAttribute" value="false"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="Datacenter"/>
+    <Property name="rollUpType" value="NONE"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="CURRENT"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="false"/>
+    <Property name="displayName" value="Datastores"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                        </List>
+                    </Property>
+                    <Property name="summaryInfos">
+                        <List>
+                            <Item>
+<Value>
+    <Property name="displayName" value="Summary"/>
+    <Property name="aggregation" value="SUM"/>
+    <Property name="attributeIndexes">
+        <List>
+            <Item value="0"/>
+            <Item value="1"/>
+            <Item value="2"/>
+            <Item value="3"/>
+            <Item value="4"/>
+            <Item value="5"/>
+            <Item value="6"/>
+            <Item value="7"/>
+        </List>
+    </Property>
+</Value>
+                            </Item>
+                        </List>
+                    </Property>
+                </Control>
+                <Control id="pagination-control_id_59" type="pagination-control" visible="true">
+                    <Property name="start" value="0"/>
+                    <Property name="size" value="50"/>
+                </Control>
+                <Control id="metadata_id_60" type="metadata" visible="false">
+                    <Property name="maxPointsCount" value="5000"/>
+                    <Property name="hideObjectNameColumn" value="false"/>
+                    <Property name="listTopResultSize" value="-1"/>
+                </Control>
+            </Controls>
+            <DataProviders>
+                <DataProvider dataType="list-view" id="list-view_id_56"/>
+            </DataProviders>
+            <Presentation type="list"/>
+        </ViewDef>
+        <ViewDef id="ed72021b-af1e-4e42-8e81-a9c8f5738c91">
+            <Title>NG -  ESXi Purchase Cost and Depreciation</Title>
+            <Description/>
+            <SubjectType adapterKind="VMWARE" resourceKind="HostSystem" type="descendant"/>
+            <SubjectType adapterKind="VMWARE" resourceKind="HostSystem" type="self"/>
+            <Usage>dashboard</Usage>
+            <Usage>report</Usage>
+            <Usage>details</Usage>
+            <Usage>content</Usage>
+            <Controls>
+                <Control id="time-interval-selector_id_51" type="time-interval-selector" visible="false">
+                    <Property name="advancedTimeMode" value="false"/>
+                    <Property name="unit" value="DAYS"/>
+                    <Property name="count" value="7"/>
+                </Control>
+                <Control id="attributes-selector_id_52" type="attributes-selector" visible="false">
+                    <Property name="attributeInfos">
+                        <List>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="cost|serverPurchaseCost"/>
+    <Property name="preferredUnitId" value="currency"/>
+    <Property name="isStringAttribute" value="false"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="HostSystem"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="LAST"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="true"/>
+    <Property name="displayName" value="Purchase Cost"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="cost|accumulatedDepreciation"/>
+    <Property name="preferredUnitId" value="currencymonth"/>
+    <Property name="isStringAttribute" value="false"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="HostSystem"/>
+    <Property name="rollUpType" value="NONE"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="CURRENT"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="false"/>
+    <Property name="displayName" value="Depreciation"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                            <Item>
+<Value>
+    <Property name="objectType" value="RESOURCE"/>
+    <Property name="attributeKey" value="cost|remainingDepreciationMonths"/>
+    <Property name="isStringAttribute" value="false"/>
+    <Property name="adapterKind" value="VMWARE"/>
+    <Property name="resourceKind" value="HostSystem"/>
+    <Property name="rollUpCount" value="0"/>
+    <Property name="transformations">
+        <List>
+            <Item value="LAST"/>
+        </List>
+    </Property>
+    <Property name="isProperty" value="true"/>
+    <Property name="yellowBound" value="12"/>
+    <Property name="orangeBound" value="6"/>
+    <Property name="redBound" value="0"/>
+    <Property name="ascendingRange" value="true"/>
+    <Property name="displayName" value="Depreciates (in months)"/>
+    <Property name="addTimestampAsColumn" value="false"/>
+    <Property name="isShowRelativeTimestamp" value="false"/>
+</Value>
+                            </Item>
+                        </List>
+                    </Property>
+                </Control>
+                <Control id="pagination-control_id_53" type="pagination-control" visible="true">
+                    <Property name="start" value="0"/>
+                    <Property name="size" value="50"/>
+                </Control>
+                <Control id="metadata_id_54" type="metadata" visible="false">
+                    <Property name="maxPointsCount" value="5000"/>
+                    <Property name="hideObjectNameColumn" value="false"/>
+                    <Property name="listTopResultSize" value="-1"/>
+                </Control>
+            </Controls>
+            <DataProviders>
+                <DataProvider dataType="list-view" id="list-view_id_50"/>
+            </DataProviders>
+            <Presentation type="list"/>
+        </ViewDef>
+    </Views>
+</Content>
